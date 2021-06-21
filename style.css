@@ -27,7 +27,7 @@ header{
 	border-radius: 8px;
 	width: 87%; 
 	padding: 0 auto;
-	height: 2.5em;
+	height: 2.7em;
 	color: #A1B2CD;
 	font-family: Open sans;
 	border-style: solid;
@@ -35,17 +35,73 @@ header{
 	margin-bottom: 4%;
 	outline: none;
 }
+.sala span{
+	color: #A1B2CD;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 88%;
+	transform: translateY(20%);
+	padding: 0.8em;
+}
+.sala span p{
+	font-size: 0.8em;
+}
+.sala span div{
+	background-color: #A1B2CD;
+	width: 40%;
+	height: 2%;
+}
 button:nth-child(3){
 	background-color: #3485FF;
 	color: white;
+	font-weight: 500;
 	border-radius: 8px;
 	width: 89%;
 	border-width: 0em;
 	padding: 0 auto;
-	height:2.8em; 
+	height:3em; 
 	
 }
 button:nth-child(3) img{
 	transform: translateX(-20%) translateY(20%);
 	
+}
+h2:nth-child(5){
+	transform:translateX(5%);
+}
+button:nth-child(6){
+	width: 89%;
+	background-color: white;
+	color: #3485FF;
+	border-width: 0.2em;
+	font-weight: 500;
+	border-style: solid;
+	border-color: #3485FF;
+	border-radius: 8px;
+	padding: 0 auto;
+	height: 3em;
+}
+button:nth-child(6) img{
+	transform: translateX(-20%) translateY(20%);
+} 
+#Bola1{
+	background-color:#5498FF;
+	opacity: 10%;
+	position: absolute;
+	border-radius: 50%;
+	width: 40em;
+	height: 40em;
+	right: -26%;
+	top: -80%;
+}
+#Bola2{
+	background-color:#5498FF;
+	opacity: 10%;
+	position: absolute;
+	border-radius: 50%;
+	width: 18em;
+	height: 18em;
+	right: 20%;
+	top: 90%;
 }
