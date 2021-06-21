@@ -1,0 +1,51 @@
+body{
+	margin: 0 auto;
+	padding: 0 auto;
+	box-sizing: border-box;
+}
+*{
+	font-family: Poppins;
+}
+header{
+	margin-top: 0.5rem;
+	margin-left: 13%;
+}
+#maingrid{
+	display: grid;
+	grid-template-columns: 50% 50%;
+}
+.sala{
+	display: flex;
+	margin: 0 auto;
+	padding-top: 5.5rem; 
+	width: 50%;
+	flex-direction: column;
+	align-items: center;
+}
+.sala input{
+	color:#A1B2CD;
+	border-radius: 8px;
+	width: 87%; 
+	padding: 0 auto;
+	height: 2.5em;
+	color: #A1B2CD;
+	font-family: Open sans;
+	border-style: solid;
+	border-color: #A1B2CD;
+	margin-bottom: 4%;
+	outline: none;
+}
+button:nth-child(3){
+	background-color: #3485FF;
+	color: white;
+	border-radius: 8px;
+	width: 89%;
+	border-width: 0em;
+	padding: 0 auto;
+	height:2.8em; 
+	
+}
+button:nth-child(3) img{
+	transform: translateX(-20%) translateY(20%);
+	
+}
