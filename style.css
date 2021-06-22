@@ -1,51 +1,74 @@
-body{
-	margin: 0 auto;
-	padding: 0 auto;
-	box-sizing: border-box;
-}
 *{
 	font-family: Poppins;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;	
 }
-header{
-	margin-top: 0.5rem;
+html{
+	font-size: 62.5%;
+	overflow: hidden;
+}
+body{
+	height: 100vh;
+}
+
+header img{
+	margin-top: 3.5rem;
 	margin-left: 13%;
+}
+.ilustration img{
+	width: 80%;
 }
 #maingrid{
 	display: grid;
-	grid-template-columns: 50% 50%;
+	margin:0 auto;
+	width: 100%;
+	height: 100vh;
+	grid-template-columns: 60% 40%;
 }
 .sala{
 	display: flex;
 	margin: 0 auto;
-	padding-top: 5.5rem; 
-	width: 50%;
+	margin-top: 7rem;
+	transform: scale(0.9);
+	margin-right: 24.6rem;
+	width: 36.3rem;
 	flex-direction: column;
-	align-items: center;
 }
 .sala input{
 	color:#A1B2CD;
-	border-radius: 8px;
-	width: 87%; 
-	padding: 0 auto;
-	height: 2.7em;
-	color: #A1B2CD;
+	border-radius: 0.8rem;
+	width: 100%;
+	font-size: 1.6rem;
+	height: 4.8rem;
 	font-family: Open sans;
 	border-style: solid;
 	border-color: #A1B2CD;
 	margin-bottom: 4%;
 	outline: none;
 }
+.sala input::placeholder{
+	color: #A1B2CD;
+}
 .sala span{
 	color: #A1B2CD;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	width: 88%;
+	width: 100%;
 	transform: translateY(20%);
-	padding: 0.8em;
+	margin: 4rem 0rem 4rem 0rem;
+}
+h2:nth-child(1){
+	font-size: 2.8rem;
+	margin-bottom: 2.4rem;
+}
+h2:nth-child(5){
+	font-size: 2.8rem;
 }
 .sala span p{
-	font-size: 0.8em;
+	font-size: 1.6rem;
 }
 .sala span div{
 	background-color: #A1B2CD;
@@ -56,35 +79,37 @@ button:nth-child(3){
 	background-color: #3485FF;
 	color: white;
 	font-weight: 500;
-	border-radius: 8px;
-	width: 89%;
+	border-radius: 0.8rem;
+	width: 100%;
 	border-width: 0em;
 	padding: 0 auto;
-	height:3em; 
-	
+	height:4.8rem; 
+	font-size: 1.6rem;	
 }
 button:nth-child(3) img{
 	transform: translateX(-20%) translateY(20%);
 	
 }
-h2:nth-child(5){
-	transform:translateX(5%);
-}
 button:nth-child(6){
-	width: 89%;
+	width: 100%;
 	background-color: white;
 	color: #3485FF;
-	border-width: 0.2em;
+	font-size: 1.6rem;
+	height: 4.8rem;
+	border-width: 0.2rem;
+	margin-top: 2.4rem;
 	font-weight: 500;
 	border-style: solid;
 	border-color: #3485FF;
-	border-radius: 8px;
-	padding: 0 auto;
-	height: 3em;
+	border-radius: 0.8rem;
 }
 button:nth-child(6) img{
 	transform: translateX(-20%) translateY(20%);
 } 
+button:nth-child(3):hover, button:nth-child(6):hover{
+	transition: 0.6s;
+	filter: brightness(1.2);
+}
 #Bola1{
 	background-color:#5498FF;
 	opacity: 10%;
