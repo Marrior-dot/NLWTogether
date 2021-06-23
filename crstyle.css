@@ -1,0 +1,95 @@
+*{
+	font-family: Poppins;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;	
+}
+html{
+	font-size: 62.5%;
+	background-color: #FBFCFF;
+	overflow: hidden;
+}
+body{
+	height: 100vh;
+}
+
+header img{
+	margin-top: 3.5rem;
+	margin-left: 13%;
+}
+.ilustration img{
+	width: 80%;
+}
+#maingrid{
+	display: grid;
+	margin:0 auto;
+	width: 100%;
+	grid-template-columns: 60% 40%;
+}
+.sala{
+	display: flex;
+	margin: 0 auto;
+	margin-right: 24.6rem;
+	margin-top: 10rem;
+	width: min(36.3rem, 100%);
+	flex-direction: column;
+}
+.sala input{
+	color:#A1B2CD;
+	border-radius: 0.8rem;
+	width: 100%;
+	font-size: 1.6rem;
+	height: 4.8rem;
+	font-family: Open sans;
+	border-style: solid;
+	border-color: #A1B2CD;
+	margin-bottom: 4%;
+	outline: none;
+}
+.sala input::placeholder{
+	color: #A1B2CD;
+}
+
+h2:nth-child(1){
+	font-size: 2.8rem;
+	margin-bottom: 2.4rem;
+}
+button:nth-child(3){
+	background-color: #3485FF;
+	color: white;
+	font-weight: 500;
+	border-radius: 0.8rem;
+	width: 100%;
+	border-width: 0em;
+	padding: 0 auto;
+	height:4.8rem; 
+	font-size: 1.6rem;	
+}
+button:nth-child(3) img{
+	transform: translateX(-20%) translateY(20%);
+}
+button:nth-child(3):hover{
+	transition: 0.6s;
+	filter: brightness(1.2);
+}
+#Bola1{
+	background-color:#5498FF;
+	opacity: 10%;
+	position: fixed;
+	border-radius: 50%;
+	width: 63.3rem;
+	height: 63.3rem;
+	right: -20%;
+	top: -80%;
+}
+#Bola2{
+	background-color:#5498FF;
+	opacity: 10%;
+	position: fixed;
+	border-radius: 50%;
+	width: 21.2rem;
+	height: 21.2rem;
+	right: 5%;
+	top: 90%;
+}
