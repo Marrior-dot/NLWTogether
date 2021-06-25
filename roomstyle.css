@@ -106,6 +106,8 @@ form input{
 }
 form input::placeholder{
 	color: var(--greyblue);
+	font-family: 'Open Sans';
+	font-size: 1.6rem;
 }
 form div button{
 	width: 9.8rem;
@@ -121,9 +123,13 @@ form p img{
 }
 #maingrid section{
 	margin-top: 1.6rem;
+	margin-bottom: 3.4rem;
 }
 #maingrid section div:nth-child(2){
 	margin: 0.8rem auto;
+}
+a{
+	color: black;
 }
 
 .question{
@@ -135,6 +141,36 @@ form p img{
 	background-color: var(--lightblue);
 	border-radius: 0 0.8rem 0.8rem 0.8rem;
 }
-.question span:nth-child(2){
-	width: ;
+.question span{
+	width: 94%;
+	margin: 0 auto;
 }
+.question span:nth-child(odd){
+	display: flex;
+	align-items: center;
+	margin-top: 2.4rem;
+	font-size: 1.6rem;
+	font-family: 'Open Sans';
+}
+.question span:nth-child(odd) img{
+	margin-right: 1.6rem;
+}
+.question span:nth-child(even){
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;  
+	font-weight: 400;
+	font-size: 1.6rem;
+	margin-bottom: 2.5rem;
+}
+.question span:nth-child(even) a{
+	font-weight: 400;
+	font-family: 'Open Sans';
+	color: black;
+}
+.question span:nth-child(even) img{
+	margin-right: 0.8rem;
+	transform: translateY(27%);
+	margin-left: 2.4rem;
+}
+
